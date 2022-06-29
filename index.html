@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico">
+  <title>CoTrack</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="heading">
+      <img class="title-img2" src="photo-1583324113626-70df0f4deaab.jfif" alt="corona-image">
+      <!-- <img id="title-img" src="istockphoto-1210596217-612x612.jpg" alt=""> -->
+      <h1>CoTrack</h1>
+    <h3>Live Covid Cases Tracker</h3>
+  </section>
+
+
+<section id="section2">
+  <div class="input">
+    <label id="countryname">Enter name of the country</label>
+    <input id="inputtxt" class="txt" type="text" name="country"><br>
+    <button id="submitbtn" class="btn btn-outline-secondary" name="button">Search</button>
+  </div>
+  <br>
+</section>
+
+<hr>
+
+<section id="results">
+  <div class="container">
+      <h2>COVID-19 Cases in <span id="country"></span> </h2>
+        <div class="row">
+          <div class="card a col-sm "><i class="fa fa-tachometer fa-3x"></i><h5>Active Cases</h5><span id="active"></span></div>
+          <div class="card ca col-sm "><i class="fa fa-th-list fa-3x"></i><h5>Total Cases</h5><span id="cases"></span></div>
+          <div class="card cr col-sm "><i class="fa fa-times-circle fa-3x"></i><h5>Critical Cases</h5><span id="critical"></span></div>
+        </div>
+        <div class="row">
+          <div class="card d col-sm"><i class="fa fa-times fa-3x"></i><h5>Total Deaths</h5><span id="death"></span></div>
+          <div class="card r col-sm"><i class="fa fa-check-square-o fa-3x"></i><h5>Recovered Cases</h5><span id="recovered"></span></div>
+          <div class="card t col-sm"><i class="fa fa-eye fa-3x"></i><h5>Total Testes Done</h5><span id="tests"></span></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+  © Jayash Khoiya
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>

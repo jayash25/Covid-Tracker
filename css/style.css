@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat";
+}
+
+
+
+#heading{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+background-color:#de3163;
+}
+
+
+h1 {
+  color: white;
+  font-family: 'Indie Flower', cursive;;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  position: relative;
+  z-index: 1;
+}
+
+h3{
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
+
+h2{
+  color:#316B83;
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+hr{
+  border: dotted #7c0a02  6px;
+  border-bottom: none;
+  width: 8%;
+  margin: 10px auto;
+  background-color: #fffff0;
+}
+
+.title-img2{
+  position: absolute;
+  width: 21%;
+  border-radius: 5%;
+  left: 65%;
+  transform: rotate(-5deg);
+}
+
+/* section 2 */
+
+#section2{
+  background-color:#fffff0;
+  padding: 2%;
+  padding-top: 5%;
+}
+
+.input{
+  text-align: center;
+}
+
+label{
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-right: 1%;
+  color: #316B83;
+}
+
+.txt{
+  width: 20%;
+  border-radius: 25px;
+  height: 35px;
+}
+
+/* section 3 */
+
+#results{
+  background-color: #fffff0;
+  padding: 3% 3%;
+  text-align: center;
+}
+
+img#flag {
+    height: 3%;
+    width: 3%;
+}
+
+
+
+.card{
+  padding-top: 1%;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #fbab60;
+}
+.card.a {
+    background:#6495ed;
+}
+.card.cr {
+    background: #9c7c38;
+}
+.card.r {
+    background: #00bfff;
+}
+.card.ca {
+    background: #daa520;
+}
+.card.d {
+    background:#ff004f;
+}
+.card.t {
+    background:#fbab60;
+}
+.card h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+.card span {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.card i {
+    font-size: 3rem;
+    color: #fffff0;
+}
+
+.card h5 {
+    margin: 0;
+    font-size:200%;
+    color: #ffffff;
+    font-weight: 400;
+}
+.card span {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+
+footer {
+  color: #555d50;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 1%;
+}
+
+
+.btn {
+  margin-top: 1%;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #7e8285;
+  padding: 7px 15px 7px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
